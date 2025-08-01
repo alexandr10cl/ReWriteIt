@@ -36,4 +36,4 @@ def rewrite():
     return Response(response.text, mimetype="text/plain")
 
 if __name__ == "__main__":
-    app.run(debug=false)
+    app.run(debug=False)
